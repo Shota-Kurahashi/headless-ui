@@ -7,6 +7,10 @@
     @apply font-["-apple-system"] font-light tracking-wide;
   }
 
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
   h1,
   h2,
   h3,

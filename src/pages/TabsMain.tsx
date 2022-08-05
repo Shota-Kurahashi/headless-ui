@@ -40,6 +40,7 @@ const TabsMain = () => {
                       <m.div
                         layout
                         layoutId="bg"
+                        transition={{ duration: 0.2 }}
                         className=" absolute z-0 h-full w-full bg-white"
                       />
                     ) : null}
@@ -57,6 +58,7 @@ const TabsMain = () => {
                       <m.div
                         layout
                         layoutId="bg"
+                        transition={{ duration: 0.2 }}
                         className=" absolute z-0 h-full w-full bg-white"
                       />
                     ) : null}
@@ -74,6 +76,7 @@ const TabsMain = () => {
                       <m.div
                         layout
                         layoutId="bg"
+                        transition={{ duration: 0.2 }}
                         className=" absolute z-0 h-full w-full bg-white"
                       />
                     ) : null}

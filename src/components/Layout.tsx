@@ -6,8 +6,8 @@ type Props = {
 };
 
 export const Layout: FC<Props> = ({ children }) => (
-  <div className="flex h-screen w-screen items-center justify-center">
-    <header className="fixed inset-0 flex h-20 w-full items-center justify-around bg-gray-300 px-8">
+  <div className="flex h-screen w-screen">
+    <header className="fixed inset-0 flex h-32 w-full flex-wrap items-center justify-around space-x-2 bg-gray-300 px-8 md:h-16">
       <Link href="/MenuMain">Menu</Link>
       <Link href="/ListBoxMain">ListBox</Link>
       <Link href="/ComboBocMain">ComboBoc</Link>
@@ -19,6 +19,8 @@ export const Layout: FC<Props> = ({ children }) => (
       <Link href="/TabsMain">Tabs</Link>
       <Link href="/transitionMain">Transition</Link>
     </header>
-    <main>{children}</main>
+    <main className="flex w-full flex-1 flex-col items-center  justify-center pt-32 md:pt-16">
+      {children}
+    </main>
   </div>
 );

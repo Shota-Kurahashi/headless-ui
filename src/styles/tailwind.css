@@ -27,4 +27,8 @@
   li {
     @apply cursor-pointer;
   }
+
+  .button {
+    @apply rounded-xl border-2 bg-indigo-500 px-4 py-2 text-white hover:bg-indigo-600;
+  }
 }

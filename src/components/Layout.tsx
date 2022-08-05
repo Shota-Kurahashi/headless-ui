@@ -19,7 +19,7 @@ export const Layout: FC<Props> = ({ children }) => (
       <Link href="/TabsMain">Tabs</Link>
       <Link href="/transitionMain">Transition</Link>
     </header>
-    <main className="flex w-full flex-1 flex-col items-center  justify-center pt-32 md:pt-16">
+    <main className="flex h-full w-full flex-1 flex-col items-center justify-center pt-32 md:pt-16">
       {children}
     </main>
   </div>
